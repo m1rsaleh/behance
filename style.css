@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+body div header {
+  height: 800px;
+  background-image: url(./img/Indonesia-2012-716_feat_1920x800.jpg);
+}
+
+body div header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body div header nav ul li {
+  margin-right: 50px;
+  margin-top: 21px;
+}
+
+body div header nav ul li a {
+  font-size: 1.2rem;
+  color: black;
+  text-decoration: none;
+}
+
+body div header nav ul li a:hover {
+  text-decoration: underline;
+  color: rgba(221, 17, 17, 0.753);
+}
+
+body div header .head-text .Mount-b {
+  position: absolute;
+  top: 25%;
+  right: 39%;
+  font-size: 4rem;
+  color: #ffffff;
+}
+
+body div header .head-text .indonesia {
+  right: 42%;
+  top: 36%;
+  position: absolute;
+  font-size: 21px;
+  color: rgba(221, 17, 17, 0.753);
+  letter-spacing: 1.2rem;
+}
+
+body div header .head-text span {
+  position: absolute;
+  top: 45%;
+  right: 46%;
+  font-size: 18px;
+  color: #ffffff;
+  font-style: oblique;
+}
+
+body div main {
+  background-color: #ffffff93;
+}
+
+body div main .top-text .main-p {
+  margin: 1px 500px;
+  font-size: 21px;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+  font-family: monospace;
+}
+
+body div main .p {
+  margin: 2.5rem 500px;
+  font-size: 21px;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+  font-family: monospace;
+}
+
+body div main .sec-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body div main .sec-2 .main-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body div main .sec-2 .main-image img {
+  width: 900px;
+  height: 420px;
+  margin-left: 370px;
+}
+
+body div main .sec-2 .m-1 {
+  border: 1px solid red;
+  position: absolute;
+  width: 181px;
+  left: 71%;
+}
+
+body div main .sec-2 .text-2 {
+  width: 181px;
+  margin-left: 83px;
+  margin-top: 18px;
+}
+
+body div main .sec-2 .text-2 p {
+  font-size: 14px;
+  font-family: cursive;
+}
+
+body div main .middle-text .m {
+  border-left: 2px solid red;
+  height: 79px;
+  position: absolute;
+  right: 74%;
+}
+
+body div main .middle-text .p-2 {
+  font-size: 26px;
+  margin: 2rem 530px;
+  font-family: cursive;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+}
+
+body div main .last-text .p-3 {
+  font-size: 21px;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+  font-family: monospace;
+  margin-left: 500px;
+  margin-right: 850px;
+}
+
+body div main .last-text img {
+  width: 450px;
+  height: 225px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 157rem;
+  right: 18%;
+}
+
+body div main .comments .m-3 {
+  border: 1px solid red;
+  width: 131px;
+  position: absolute;
+  right: 47%;
+}
+
+body div main .comments p {
+  margin: 10px 879px;
+  font-size: 20px;
+  font-family: cursive;
+}
+
+body div footer {
+  background-image: url(./img/rohit-tandon-9wg5jCEPBsw-unsplash_1920x800.jpg);
+  height: 800px;
+}
+
+body div footer .foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body div footer .foot .foot-p1 {
+  width: 200px;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+
+body div footer .foot .foot-p1 p {
+  font-style: italic;
+  font-size: 15px;
+}
+
+body div footer .foot .foot-p2 {
+  width: 200px;
+  margin-left: 18%;
+  margin-top: 5%;
+}
+
+body div footer .foot .foot-p2 p {
+  font-style: italic;
+  font-size: 15px;
+}
+
+body div footer nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body div footer nav ul li {
+  margin-top: 500px;
+  margin-left: 5%;
+  margin-right: 38px;
+}
+
+body div footer nav ul li a {
+  font-size: 1.2rem;
+  color: black;
+  text-decoration: none;
+}
+
+body div footer nav ul li a:hover {
+  text-decoration: underline;
+  color: rgba(221, 17, 17, 0.753);
+}
+/*# sourceMappingURL=style.css.map */

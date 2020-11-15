@@ -1,0 +1,215 @@
+@import "./scss/variables";
+@import "./scss/mixin";
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+body {
+  div {
+    header {
+      height: 800px;
+      background-image: url(./img/Indonesia-2012-716_feat_1920x800.jpg);
+      nav {
+        ul {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+
+          li {
+            margin-right: 50px;
+            margin-top: 21px;
+
+            a {
+              font-size: 1.2rem;
+              color: black;
+              text-decoration: none;
+              &:hover {
+                text-decoration: underline;
+                color: rgba(221, 17, 17, 0.753);
+              }
+            }
+          }
+        }
+      }
+
+      .head-text {
+        .Mount-b {
+          position: absolute;
+          top: 25%;
+          right: 39%;
+          font-size: 4rem;
+          color: #ffffff;
+        }
+
+        .indonesia {
+          right: 42%;
+          top: 36%;
+          position: absolute;
+          font-size: 21px;
+          color: rgba(221, 17, 17, 0.753);
+          letter-spacing: 1.2rem;
+        }
+        span {
+          position: absolute;
+          top: 45%;
+          right: 46%;
+          font-size: 18px;
+          color: #ffffff;
+          font-style: oblique;
+        }
+      }
+    }
+
+    main {
+      background-color: #ffffff93;
+      .top-text {
+        .main-p {
+          margin: 1px 500px;
+          font-size: 21px;
+          word-spacing: 3px;
+          letter-spacing: 1px;
+          font-family: monospace;
+        }
+      }
+
+      .p {
+        margin: 2.5rem 500px;
+        font-size: 21px;
+        word-spacing: 3px;
+        letter-spacing: 1px;
+        font-family: monospace;
+      }
+
+      .sec-2 {
+        display: flex;
+        .main-image {
+          display: flex;
+          img {
+            width: 900px;
+            height: 420px;
+            margin-left: 370px;
+          }
+        }
+        .m-1 {
+          border: 1px solid red;
+          position: absolute;
+          width: 181px;
+          left: 71%;
+        }
+
+        .text-2 {
+          width: 181px;
+          margin-left: 83px;
+          margin-top: 18px;
+          p {
+            font-size: 14px;
+            font-family: cursive;
+          }
+        }
+      }
+
+      .middle-text {
+        .m {
+          border-left: 2px solid red;
+          height: 79px;
+          position: absolute;
+          right: 74%;
+        }
+
+        .p-2 {
+          font-size: 26px;
+          margin: 2rem 530px;
+          font-family: cursive;
+          word-spacing: 3px;
+          letter-spacing: 1px;
+        }
+      }
+
+      .last-text {
+        .p-3 {
+          font-size: 21px;
+          word-spacing: 3px;
+          letter-spacing: 1px;
+          font-family: monospace;
+          margin-left: 500px;
+          margin-right: 850px;
+        }
+        img {
+          width: 450px;
+          height: 225px;
+          display: flex;
+          position: absolute;
+          top: 157rem;
+          right: 18%;
+        }
+      }
+
+      .comments {
+        .m-3 {
+          border: 1px solid red;
+          width: 131px;
+          position: absolute;
+          right: 47%;
+        }
+        p {
+          margin: 10px 879px;
+          font-size: 20px;
+          font-family: cursive;
+        }
+      }
+    }
+
+    footer {
+      background-image: url(./img/rohit-tandon-9wg5jCEPBsw-unsplash_1920x800.jpg);
+      height: 800px;
+      .foot {
+        display: flex;
+        .foot-p1 {
+          width: 200px;
+          margin-left: 30%;
+          margin-top: 5%;
+          p {
+            font-style: italic;
+            font-size: 15px;
+          }
+        }
+
+        .foot-p2 {
+          width: 200px;
+          margin-left: 18%;
+          margin-top: 5%;
+
+          p {
+            font-style: italic;
+            font-size: 15px;
+          }
+        }
+      }
+      nav {
+        ul {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+
+          li {
+            margin-top: 500px;
+            margin-left: 5%;
+            margin-right: 38px;
+            a {
+              font-size: 1.2rem;
+              color: black;
+              text-decoration: none;
+              &:hover {
+                text-decoration: underline;
+                color: rgba(221, 17, 17, 0.753);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
